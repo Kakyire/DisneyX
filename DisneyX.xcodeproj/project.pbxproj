@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		727C90BB372B2702EBEC722E /* Pods_DisneyX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D1BCEE9E6954ED20936F4D /* Pods_DisneyX.framework */; };
+		8D325E4528761AAE0012523C /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D325E4428761AAE0012523C /* CharacterModel.swift */; };
+		8D325E48287621AA0012523C /* CharactersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D325E47287621AA0012523C /* CharactersResponse.swift */; };
+		8D325E50287661660012523C /* UiImageViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D325E4F287661660012523C /* UiImageViewExt.swift */; };
 		8D771559286A677E008E56ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D771558286A677E008E56ED /* AppDelegate.swift */; };
 		8D77155B286A677E008E56ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D77155A286A677E008E56ED /* SceneDelegate.swift */; };
-		8D77155D286A677E008E56ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D77155C286A677E008E56ED /* ViewController.swift */; };
 		8D771560286A677E008E56ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D77155E286A677E008E56ED /* Main.storyboard */; };
 		8D771562286A6791008E56ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D771561286A6791008E56ED /* Assets.xcassets */; };
 		8D771565286A6791008E56ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D771563286A6791008E56ED /* LaunchScreen.storyboard */; };
+		8D7AF18F2874DC150091F667 /* CharactersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7AF18D2874DC150091F667 /* CharactersTableViewCell.swift */; };
+		8D7AF1902874DC150091F667 /* CharactersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D7AF18E2874DC150091F667 /* CharactersTableViewCell.xib */; };
+		8D7AF1952874E0100091F667 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7AF1942874E0100091F667 /* Constants.swift */; };
+		8D7AF1992874E18F0091F667 /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7AF1982874E18F0091F667 /* CharactersViewController.swift */; };
+		8D7AF1A02874E41D0091F667 /* CharactersDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7AF19F2874E41D0091F667 /* CharactersDTO.swift */; };
+		8D7AF1A42874E5F80091F667 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7AF1A32874E5F80091F667 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D325E4428761AAE0012523C /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
+		8D325E47287621AA0012523C /* CharactersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersResponse.swift; sourceTree = "<group>"; };
+		8D325E4F287661660012523C /* UiImageViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiImageViewExt.swift; sourceTree = "<group>"; };
 		8D771555286A677E008E56ED /* DisneyX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisneyX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D771558286A677E008E56ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D77155A286A677E008E56ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8D77155C286A677E008E56ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8D77155F286A677E008E56ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D771561286A6791008E56ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D771564286A6791008E56ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D771566286A6791008E56ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D7AF18D2874DC150091F667 /* CharactersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersTableViewCell.swift; sourceTree = "<group>"; };
+		8D7AF18E2874DC150091F667 /* CharactersTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharactersTableViewCell.xib; sourceTree = "<group>"; };
+		8D7AF1942874E0100091F667 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8D7AF1982874E18F0091F667 /* CharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
+		8D7AF19F2874E41D0091F667 /* CharactersDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersDTO.swift; sourceTree = "<group>"; };
+		8D7AF1A32874E5F80091F667 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8E802A1C8C1AA5BF18C4FD43 /* Pods-DisneyX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisneyX.release.xcconfig"; path = "Target Support Files/Pods-DisneyX/Pods-DisneyX.release.xcconfig"; sourceTree = "<group>"; };
+		D1D1BCEE9E6954ED20936F4D /* Pods_DisneyX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DisneyX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADBA4C4496392148D33F725 /* Pods-DisneyX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisneyX.debug.xcconfig"; path = "Target Support Files/Pods-DisneyX/Pods-DisneyX.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				727C90BB372B2702EBEC722E /* Pods_DisneyX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D325E4E287661270012523C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8D325E4F287661660012523C /* UiImageViewExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		8D77154C286A677D008E56ED = {
 			isa = PBXGroup;
 			children = (
 				8D771557286A677E008E56ED /* DisneyX */,
 				8D771556286A677E008E56ED /* Products */,
+				D1307F74FC025EB30EB2D098 /* Pods */,
+				C242E0525596DE7645B79218 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +87,65 @@
 		8D771557286A677E008E56ED /* DisneyX */ = {
 			isa = PBXGroup;
 			children = (
+				8D325E4E287661270012523C /* Extensions */,
 				8D771558286A677E008E56ED /* AppDelegate.swift */,
 				8D77155A286A677E008E56ED /* SceneDelegate.swift */,
-				8D77155C286A677E008E56ED /* ViewController.swift */,
-				8D77155E286A677E008E56ED /* Main.storyboard */,
+				8D7AF1942874E0100091F667 /* Constants.swift */,
+				8D7AF19E2874E3EF0091F667 /* Model */,
+				8D7AF1932874DF330091F667 /* Controllers */,
+				8D7AF1922874DF240091F667 /* View */,
 				8D771561286A6791008E56ED /* Assets.xcassets */,
 				8D771563286A6791008E56ED /* LaunchScreen.storyboard */,
 				8D771566286A6791008E56ED /* Info.plist */,
 			);
 			path = DisneyX;
+			sourceTree = "<group>";
+		};
+		8D7AF1922874DF240091F667 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D77155E286A677E008E56ED /* Main.storyboard */,
+				8D7AF18E2874DC150091F667 /* CharactersTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D7AF1932874DF330091F667 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8D7AF18D2874DC150091F667 /* CharactersTableViewCell.swift */,
+				8D7AF1982874E18F0091F667 /* CharactersViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8D7AF19E2874E3EF0091F667 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8D7AF19F2874E41D0091F667 /* CharactersDTO.swift */,
+				8D7AF1A32874E5F80091F667 /* NetworkManager.swift */,
+				8D325E4428761AAE0012523C /* CharacterModel.swift */,
+				8D325E47287621AA0012523C /* CharactersResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C242E0525596DE7645B79218 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1D1BCEE9E6954ED20936F4D /* Pods_DisneyX.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1307F74FC025EB30EB2D098 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DADBA4C4496392148D33F725 /* Pods-DisneyX.debug.xcconfig */,
+				8E802A1C8C1AA5BF18C4FD43 /* Pods-DisneyX.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D771569286A6791008E56ED /* Build configuration list for PBXNativeTarget "DisneyX" */;
 			buildPhases = (
+				7B6E561C775FC9AD74179DDC /* [CP] Check Pods Manifest.lock */,
 				8D771551286A677E008E56ED /* Sources */,
 				8D771552286A677E008E56ED /* Frameworks */,
 				8D771553286A677E008E56ED /* Resources */,
+				AC084C86AE0014D0EE06E54C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,19 +210,69 @@
 				8D771565286A6791008E56ED /* LaunchScreen.storyboard in Resources */,
 				8D771562286A6791008E56ED /* Assets.xcassets in Resources */,
 				8D771560286A677E008E56ED /* Main.storyboard in Resources */,
+				8D7AF1902874DC150091F667 /* CharactersTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B6E561C775FC9AD74179DDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DisneyX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC084C86AE0014D0EE06E54C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DisneyX/Pods-DisneyX-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DisneyX/Pods-DisneyX-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DisneyX/Pods-DisneyX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D771551286A677E008E56ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D77155D286A677E008E56ED /* ViewController.swift in Sources */,
+				8D7AF1952874E0100091F667 /* Constants.swift in Sources */,
+				8D7AF1992874E18F0091F667 /* CharactersViewController.swift in Sources */,
+				8D325E50287661660012523C /* UiImageViewExt.swift in Sources */,
 				8D771559286A677E008E56ED /* AppDelegate.swift in Sources */,
+				8D325E48287621AA0012523C /* CharactersResponse.swift in Sources */,
+				8D7AF1A42874E5F80091F667 /* NetworkManager.swift in Sources */,
+				8D7AF1A02874E41D0091F667 /* CharactersDTO.swift in Sources */,
+				8D325E4528761AAE0012523C /* CharacterModel.swift in Sources */,
 				8D77155B286A677E008E56ED /* SceneDelegate.swift in Sources */,
+				8D7AF18F2874DC150091F667 /* CharactersTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +416,7 @@
 		};
 		8D77156A286A6791008E56ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DADBA4C4496392148D33F725 /* Pods-DisneyX.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +436,7 @@
 		};
 		8D77156B286A6791008E56ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E802A1C8C1AA5BF18C4FD43 /* Pods-DisneyX.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
